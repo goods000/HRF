@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			.bottom_nav dl dd:nth-child(2) a .dier {display: block !important;}
+			.bottom_nav dl dd:nth-child(2) a .diyi {display: none !important;}
+			.bottom_nav dl dd:nth-child(2) a span {color: #03FBFE;}
+			.h1 img{position: absolute;margin-left:5px;margin-top:0px;width: 6%;}
+		</style>
+	</head>
+	<body>
+		<h1 class="h1">
+			<img src="img/asset_l.png" onclick="location.href='Assets_detailed.html'"/>
+			<p><span>(HRF/USDT)</span>
+				<!--<img src="img/h_sel.png"/>-->
+			</p>
+		</h1>
+		<div class="trade">
+			<div class="trade_l">
+				<div id="nav">
+					<ul>
+						<li class="navTitle"><span class="navContent ">买入</span></li>
+						<li><span class="navContent">卖出</span></li>
+					</ul>
+				</div>
+				<div class="tab">
+					<div class="box buy">
+						<div class="trade_select">
+							<span><span class="zi">限时</span><i class="i"></i></span>
+							<img src=""/>
+						</div>
+						<div class="trade_input fist">
+							<input type="number" name="" id="num" value="0.5541"  placeholder="买入价" oninput="if(value>12)value=12;if(value.length>5)value=value.slice(0,6);if(value<0)value=0"/>
+							<img src="img/reduce.png" class="reduce"/>
+							<img src="img/plus.png" class="plus"/>
+						</div>
+						<div class="market_input">
+							<input type="number" name="" id="market" class="market border" value="" placeholder="以当前最优惠价格买入" readonly="readonly"/>
+						</div>
+						<p class="cny">≈￥3.8301CNY</p>
+						<div class="trade_input mb1">
+							<input type="number" name="" id="num" class="border" placeholder="数量"/>
+							<span>HRF</span>
+						</div>
+						<div class="trade_input ">
+							<input type="number" name="" id="" class="border" placeholder="金额"/>
+						</div>
+						<p class="usdt"><span>可用USDT</span><span class="yue">0.00</span></p>
+						<div class="trade_input mb1">
+							<input type="password" name="" id="" class="border" placeholder="交易密码"/>
+						</div>
+						<!--<p class="us_usdt"><span>交易额</span><span>0.00USDT</span></p>-->
+						<div class="buy_btn">买入</div>
+					</div>
+					<div class="box two">
+						<div class="tab-list-li border_b out mt">
+							<div class="recode-cont1">
+								<div class="title">
+									<span>456523265</span>
+								</div>
+								<div class="out_btn">
+									点击购买
+								</div>
+							</div>
+							<div class="recode-cont2">
+								<dl>
+									<dt><p>数量</p><span>100</span></dt>
+									<dt><p>单价</p><span>6.326</span></dt>
+									<dt><p>总价</p><span>100</span></dt>
+								</dl>
+							</div>
+						</div>
+						<div class="tab-list-li border_b out mt">
+							<div class="recode-cont1">
+								<div class="title">
+									<span>456523265</span>
+								</div>
+								<div class="out_btn">
+									点击购买
+								</div>
+							</div>
+							<div class="recode-cont2">
+								<dl>
+									<dt><p>数量</p><span>100</span></dt>
+									<dt><p>单价</p><span>6.326</span></dt>
+									<dt><p>总价</p><span>100</span></dt>
+								</dl>
+							</div>
+						</div>
+						<div class="tab-list-li border_b out mt">
+							<div class="recode-cont1">
+								<div class="title">
+									<span>456523265</span>
+								</div>
+								<div class="out_btn">
+									点击购买
+								</div>
+							</div>
+							<div class="recode-cont2">
+								<dl>
+									<dt><p>数量</p><span>100</span></dt>
+									<dt><p>单价</p><span>6.326</span></dt>
+									<dt><p>总价</p><span>100</span></dt>
+								</dl>
+							</div>
+						</div>
+						<div class="tab-list-li border_b out mt">
+							<div class="recode-cont1">
+								<div class="title">
+									<span>456523265</span>
+								</div>
+								<div class="out_btn">
+									点击购买
+								</div>
+							</div>
+							<div class="recode-cont2">
+								<dl>
+									<dt><p>数量</p><span>100</span></dt>
+									<dt><p>单价</p><span>6.326</span></dt>
+									<dt><p>总价</p><span>100</span></dt>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+		
+		<div class="entrust">
+			<div class="entrust_l">当前委托</div>
+			<div class="entrust_r" onclick="location.href='entrust.html'">
+				<img src="img/history.png"/>
+				<span>历史委托</span>
+			</div>
+		</div>
+		<div class="tab-list-li">
+			<div class="recode-cont1">
+				<div class="title">
+					<span class="zi">买入</span><span>HRF/USDT</span>
+				</div>
+				<div class="time">
+					14:00  10/21
+				</div>
+			</div>
+			<div class="recode-cont2">
+				<dl>
+					<dt><p>价格（USDT)</p><span>6.326</span></dt>
+					<dt><p>数量（USDT)</p><span>100</span></dt>
+					<dt><p>已成交（USDT)</p><span>100</span></dt>
+				</dl>
+			</div>
+		</div>
+		<div class="tab-list-li mb border_b">
+			<div class="recode-cont1">
+				<div class="title">
+					<span class="zi1">卖出</span><span>HRF/USDT</span>
+				</div>
+				<div class="time">
+					14:00  10/21
+				</div>
+			</div>
+			<div class="recode-cont2">
+				<dl>
+					<dt><p>价格（USDT)</p><span>6.326</span></dt>
+					<dt><p>数量（USDT)</p><span>100</span></dt>
+					<dt><p>已成交（USDT)</p><span>100</span></dt>
+				</dl>
+			</div>
+		</div>
+		
+		<div class="mo">
+			<div class="mo_box">
+				<ul>
+					<li class="active">限价</li>
+					<li>市价</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--卖弹出框-->
+		<div class="out_box">
+			<div class="out_k">
+				<p class="close">关闭</p>
+				<div class="trade_input mb1 mt">
+					<input type="number" name="" id="num" class="border" placeholder="数量"/>
+					<span>HRF</span>
+				</div>
+				<div class="trade_input mb1">
+					<input type="number" name="" id="" class="border border_b" placeholder="金额"/>
+				</div>
+				<div class="btn mt mb1">购买</div>
+			</div>
+		</div>
+		
+		<!--导入底部导航栏-->
+		<div id="footer"></div>
+	</body>
+	<script type="text/javascript">
+		/*卖出*/
+		$(".out_btn").click(function(){$(".out_box").show();})
+		$(".btn").click(function(){$(".out_box").hide();})
+		$(".close").click(function(){$(".out_box").hide();})
+		
+		/*限价弹出框*/
+		$(".trade_select").click(function(){$(".mo").show();})
+		$(".mo").click(function(){$(this).hide();})
+		$(".mo .mo_box ul li").each(function(){
+			$(this).click(function(){
+				$(".trade_select .zi").html($(this).html());
+				if ($(".trade_select .zi").html() == "市价") {
+					$(".fist").hide();
+					$(".cny").css("opacity","0");
+					$(".market_input").show();
+					$(".trade .trade_l .tab .box .trade_input span").html("USDT");
+				} else{
+					$(".fist").show();
+					$(".cny").css("opacity","1");
+					$(".market_input").hide();
+					$(".trade .trade_l .tab .box .trade_input span").html("HRF");
+				}
+				$(this).addClass("active").siblings().removeClass("active");
+				$(".mo").hide();
+			})
+		})
+		/*买入和卖出切换*/
+		var $div_li = $('#nav ul li');
+        $('#nav ul li').click(function(){
+            $(this).addClass("navTitle").siblings().removeClass("navTitle"); 
+                var index =  $div_li.index(this);  
+                console.log(index);
+            $("div.tab > div").eq(index).show().siblings().hide(); 
+		})
+        
+        /*加*/
+        $(".plus").click(function(){
+        	console.log($("#num").val());
+        	$("#num").val(parseFloat($("#num").val())+parseFloat(0.0001));
+        })
+        /*减*/
+        $(".reduce").click(function(){
+        	if($("#num").val()==1){
+        		$("#num").val(1);
+        	}
+			else{
+				$("#num").val(parseFloat($("#num").val())-parseFloat(0.0001));	
+			}
+        })
+		
+	</script>
+</html>
