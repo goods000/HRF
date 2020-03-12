@@ -93,6 +93,50 @@ var picArr = new Array();// 存储图片
     }
      
     checknum();
+    function login(){
+    	var title = $("#text").val();
+    	var content = $("#texts").val();
+    	if(title == ""){
+    		layer.msg('请输入标题');
+    		return ;
+    	}
+    	if(content == ""){
+    		layer.msg('请输入内容');
+    		return ;
+    	}
+    	var form = new FormData();
+    	for (var i = 0; i < files.length; i++) {
+    		form.append('files',files[i]);
+		}
+    	form.append('files',files);
+    	form.append('title',title);
+    	form.append('content',content);
+    	console.log(files)
+		$.ajax({
+			url:'addFeeback',
+            type: 'POST',
+            data: form,
+            dataType: 'JSON',
+            cache: false,
+            processData: false,
+            contentType: false,
+			success:function(res){
+				layer.alert("提交成功",function(){window.location.href = "/toUser";});
+				//layer.msg('提交成功');
+				/* layer.open({
+					title: ['提示'],
+					content: '提交成功',
+					btn: ['确定'],
+					shadeClose: true,
+					//回调函数
+					yes: function(index, layero){
+						window.location.href = "/toUser";
+					}
+			});   */
+            	//window.location.href = "/toUser";
+            }
+		})
+    }
 </script>
 </body>
 </html>

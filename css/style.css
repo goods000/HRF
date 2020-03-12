@@ -225,6 +225,7 @@ border-top: 5px solid #6982A3;border-right: 5px solid #081724;border-bottom: 5px
 .trade .trade_l .tab .box{height: 60vh;overflow: scroll;}
 .out{background: #131F30;border-radius: 5px;}
 .out .out_btn{background: #D34C64;padding: 1% 3%;width: 18%;text-align: center;}
+.out .out_btn1{background: rgb(255,255,255,.3);padding: 1% 3%;width: 18%;text-align: center;}
 .out .recode-cont2 dl dt p,.out .recode-cont2 dl dt span{color: #C9D3F1;}
 .out_k .trade_input{border: 1px solid #6982A3;border-radius: 3px;display: flex;align-items: center;}
 .out_k .market_input{display: none;height: 37px;}
@@ -256,7 +257,7 @@ border-top: 5px solid #6982A3;border-right: 5px solid #081724;border-bottom: 5px
 .recode-cont2 dl dt{padding: 12px 0px 5px;text-align: center;}
 .recode-cont2 dl dt span{font-size: 13px;padding: 10px 0px 0;display: block;}
 .recode-cont2 h3{font-size: 13px; color: #7D7D7D;font-weight: normal;padding: 15px 10px;}
-
+.recode-cont3{padding: 0px 20px;color: #f5f5f5;font-size: 0.5rem;}
 
 .set_box{display: flex;flex-direction: row;align-items: center;justify-content: flex-start;}
 .set_box .set_btn{color: #fff;border: 1px solid #fff;font-size: 1.1rem;padding: 2px 5px;border-radius: 3px;text-align: center;
@@ -341,15 +342,15 @@ width: 40%;padding: 2%;text-align: center;overflow: hidden;white-space: nowrap;t
 .tixn_record em{clear: both;}
 .tixn_record li{width:100%;margin: auto;padding: 10px;box-sizing: border-box;background: #131F30;margin-bottom: 10px;}
 .tixn_record p{margin: 10px 0;}
-.tixn_record p span{color: #94A0C3;}
-.tixn_record p u,.tixn_record p i{color: #94A0C3;}
+.tixn_record p span{color: #fff;}
+.tixn_record p u,.tixn_record p i{color: #fff;text-decoration: none;word-break: break-all;}
 .tixn_record li .y{color: #03FBFE;}
 .tixn_record li .p{color: #000;font-size: 15px;}
 .tixn_record li .je{color: #FFAF0A;float: right;}
 .tixn_record li .je1{color: #999;float: right;}
 .tixn_record .span{clear:both;display: block;}
-.tixn_record .span span{color: #94A0C3;}
-.tixn_record .span u{color: #94A0C3;}
+.tixn_record .span span{color: #fff;}
+.tixn_record .span u{color: #fff;text-decoration: none;}
 
 /*锁仓账户划转*/
 .sfer{margin: 15px;}
